@@ -1,0 +1,11 @@
+pip install jupyter ipykernel
+
+
+git pull origin main // This fetches the latest changes from GitHub.
+
+git add .
+git commit -m "Added new work from Laptop B"
+
+git push origin main
+
+ 
