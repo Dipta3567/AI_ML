@@ -8,4 +8,17 @@ git commit -m "Added new work from Laptop B"
 
 git push origin main
 
+
+anaconda promot : 
+
+conda create -n jupyterlab-lsp -c conda-forge python=3.11
+conda activate jupyterlab-lsp
+
+
+conda install -c conda-forge "jupyterlab>=4.1.0,<5.0.0a0" jupyterlab-lsp
+conda install -c conda-forge python-lsp-server
+conda install -c conda-forge r-languageserver
+jupyter lab
+
+in jupyter lab auto completetion check and auto hint check
  
